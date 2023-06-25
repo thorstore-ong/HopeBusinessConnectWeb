@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hope Business Connect</title>
     <link rel="stylesheet" href="globalstyling.css">
+    <link rel="stylesheet" href="contactstyle.css">
     <script src="https://use.fontawesome.com/09c1612f6f.js"></script>
 </head>
 <body>
@@ -26,17 +27,20 @@
                 Whether you would like to receive Newsletters to stay updated with Hope Business Connect, 
                 or you may have a query your not entirely sure about, can find us here:
               </p>
+
               <div class="info">
                 <div class="information">
                   <p>Church Address here</p>
                 </div>
+
                 <div class="information">
                   <p>lorem@ipsum.com (church website here)</p>
                 </div>
+
                 <div class="information">
                   <p>123-456-789 (Church number here)</p>
                 </div>
-              
+              </div>
                 <div class="social-media">
                   <p>Connect with us :</p>
                   <div class="social-icons">
@@ -46,27 +50,47 @@
                     <a href="#">
                       <i class="fa-brands fa-linkedin"></i>
                     </a>
-                  </div>
+                  </div><br>
                 </div>
-            </div>
+                </div>
+            
             <div class="contact-form">
-              <form id="contactForm" action="contact.html" autocomplete="off">
-                <h3>Contact Us</h3>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+              <span class="circle one"></span>
+              <span class="circle two"></span>
+    
+              <form  action="contact.html" autocomplete="off">
+                <h3 class="title1">Contact Us</h3>
+                <div class="input-container">
+                  <input type="text" id="name" name="name" class="input" required>
+                  <label for="">Name</label>
+                  <span>Name</span>
+                </div>
+                
+                <div class="input-container">
+                  <input type="text" id="surname" name="surname" class="input" required>
+                  <label for="">Surname</label>
+                  <span>Surname</span>
+                </div>
+                 
+                <div class="input-container">
+                  <input type="email" id="email" name="email" class="input" required>
+                  <label for="">Email</label>
+                  <span>Email</span>
+                </div>
 
-                <label for="surname">Surname:</label>
-                <input type="text" id="surname" name="surname" required>
-              
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <div class="input-container">
+                  <input type="tel" id="phone" name="number" class="input" required>
+                  <label for="">Phone</label>
+                  <span>Phone</span>
+                </div>
 
-                <label for="number">Number:</label>
-                <input type="number" id="number" name="number" required>
-              
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-              
+
+                <div class="input-container">
+                  <textarea id="message" name="message" class="input" required></textarea>
+                  <label for="">Message</label>
+                  <span>Message</span>
+                </div>
+
                 <input type="submit" value="Send" class="btn">
               </form>
               
@@ -76,12 +100,12 @@
           
         </div>
 
-     </div>
+     
 
      <div class="footer">
       <p> "But Remember the Lord your God, for it is he who gives you the power to produce wealth." <strong> Deuteronomy 8:18</strong></p>
       <p class="small-p"> Hope Business Connect</p>
-
+      </div>
    </div>
       
         <script  src="//code.jquery.com/jquery.min.js"></script>
