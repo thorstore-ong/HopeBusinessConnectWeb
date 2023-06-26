@@ -15,8 +15,11 @@
   
   
   .main{
+    display: block;
+    flex-basis: 100%;
     padding: 20px;
     background-color: #fff;
+    text-align: center;
   }
   .footer {
     display: block;
@@ -62,13 +65,12 @@
     }
   }
 
-.section1 h1 {
-    font-size: 60px;
-}
-
 
 .container {
-    display: flex;
+  align-items: right;
+  display: flex;
+  padding: 3rem;
+  
 }
 
 .card {
@@ -81,6 +83,10 @@
     padding: 20px;
 }
 
+.card:hover{
+  background-color: #DBA228;
+  color: #fff;
+}
 .card p{
     font-size: 10px;
 }
