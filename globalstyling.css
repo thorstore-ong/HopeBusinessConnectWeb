@@ -17,7 +17,6 @@
   .main{
     display: block;
     flex-basis: 100%;
-    padding: 20px;
     background-color: #fff;
   }
   .footer {
@@ -33,7 +32,7 @@
   }
   
   .main {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
   }
   
   .footer {
